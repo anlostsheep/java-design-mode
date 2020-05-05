@@ -36,7 +36,7 @@ public class PrototypeCitation {
         @Override
         public Object clone() throws CloneNotSupportedException {
             log.info("调用具体原型类 clone() 方法创建对象");
-            return (Student) super.clone();
+            return super.clone();
         }
     }
 
