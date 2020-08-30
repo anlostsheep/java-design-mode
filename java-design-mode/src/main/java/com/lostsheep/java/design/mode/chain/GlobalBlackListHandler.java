@@ -1,5 +1,7 @@
 package com.lostsheep.java.design.mode.chain;
 
+import org.springframework.stereotype.Component;
+
 /**
  * <b><code>NoRecordHandler</code></b>
  * <p/>
@@ -10,6 +12,7 @@ package com.lostsheep.java.design.mode.chain;
  * @author dengzhen
  * @since java-design-mode 0.1.0
  */
+@Component("global")
 public class GlobalBlackListHandler extends AbstractHandler {
 
     @Override
